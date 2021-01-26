@@ -7,13 +7,30 @@ body {
     width: auto;
     height: 184px;
     margin: auto;
-    width: 50%;
+    position: relative;
+    left: 20%;
     padding-top: 52px;
 }
-.header-information-logo, .header-information-text  {
-    display: inline;
+.header-information-logo {
+    display: block;
+    position: absolute;
 }
 .header-information-text {
     width: 749px;
     color: red;
+    position: relative;
+    left: 80px;
+    top: 10px;
 }
+
+.carousel-width-height {
+    width: auto;
+    height: 430px;
+}
+
+.carousel-item-position {
+    position: absolute;
+    top: 25%;
+    left: -40%;
+}
+
