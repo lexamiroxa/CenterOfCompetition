@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .header-text {
+        max-width: 591px;
+    }
+    .header-logo {
+        position: relative;
+        left: 5%;
+    }
+}

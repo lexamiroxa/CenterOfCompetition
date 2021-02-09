@@ -1,0 +1,11 @@
+@media (max-width: 360px) {
+    .header-text {
+        max-width: 150px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .header-logo {
+        position: relative;
+        left: -5%;
+    }
+}

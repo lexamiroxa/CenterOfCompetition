@@ -5,10 +5,15 @@
 	<meta charset="UTF-8">
 	
 	<link rel="stylesheet" href="bootstrap5/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="js/js.js">
-	<link rel="stylesheet" href="js/jquery.js">
-	<link rel="stylesheet" href="php/php.php">
+	<link rel="stylesheet" href="css/style.css">  <!-- XXL 1920x1080 -->
+	<link rel="stylesheet" href="css/styleXL.css" > <!-- XL 1280x768 -->
+	<link rel="stylesheet" href="css/styleLG.css" > <!-- LG 1024x768 -->
+	<link rel="stylesheet" href="css/styleMD.css" > <!-- MD 768x1024 -->
+	<link rel="stylesheet" href="css/styleSM.css" > <!-- SM 576x768 -->
+	<link rel="stylesheet" href="css/styleXS.css" > <!-- XS 360x640 -->
+	<link rel="stylesheet" href="js/js.js"> <!-- js -->
+	<link rel="stylesheet" href="js/jquery.js"> <!--jquery -->
+	<link rel="stylesheet" href="php/php.php"> <!-- php -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
@@ -19,15 +24,16 @@
 </head>
 <body>
 <header>
-	<div class="container">
-		<div class="row row-cols-1">
-			<div class="col header-logo">
-				<img src="material/images/KubSAU_Competence_Center_FawIcon.png" alt="">
-				<div class="borderright"></div>
-				<p class="header-text">
-					Центр компетенций повышения производительности труда, конкурентоспособности и цифровизации производства Кубанского ГАУ
-				</p>
-			</div>
+	<div class="header-logo">
+		<div class="display-table-cell display-table-cell-logo">
+			<img src="material/images/KubSAU_Competence_Center_FawIcon.png" alt="">
+		</div>
+		<div class="borderright display-table-cell"></div>
+		<div class="display-table-cell">
+			<p class="header-text">
+				Центр компетенций повышения производительности труда, 
+				конкурентоспособности и цифровизации производства Кубанского ГАУ
+			</p>
 		</div>
 	</div>
 </header>
@@ -72,48 +78,56 @@
 		</div>
   	</nav>
 </div>
+
 <div class="carousel-info">
 	<div id="carouselExampleDark" class="carousel carousel-dark slide" data-ride="carousel">
 		<ol class="carousel-indicators">
-		<li data-target="#carouselExampleDark" data-slide-to="0" class="active"></li>
-		<li data-target="#carouselExampleDark" data-slide-to="1"></li>
-		<li data-target="#carouselExampleDark" data-slide-to="2"></li>
+			<li data-target="#carouselExampleDark" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleDark" data-slide-to="1"></li>
+			<li data-target="#carouselExampleDark" data-slide-to="2"></li>
 		</ol>
 		<div class="carousel-inner">
 		<div class="carousel-item active" data-interval="10000">
-			<img src="material/images/Slider_Image_01.jpg" class="d-block w-100" alt="..." height="430px">
-			<div class="carousel-caption d-none d-md-block">
-			<h5>First slide label</h5>
-			<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+			<img src="material/images/Slider_Image_01.jpg" class="d-block w-100 carousel-img" alt="...">
+			<div class="carousel-caption d-none d-md-block carousel-text">
+			<h1><u>Компетенции в инновациях!</u></h1>
+			<p>Скорость технологических изменений нарастает стремительно, идёт резко вверх. Тот, кто использует 
+				эту технологическую волну, вырвется далеко вперёд. — В. В. Путин</p>
 			</div>
 		</div>
 		<div class="carousel-item" data-interval="2000">
-			<img src="material/images/Slider_Image_01.jpg" class="d-block w-100" alt="..." height="430px">
-			<div class="carousel-caption d-none d-md-block">
-			<h5>Second slide label</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
+			<img src="material/images/Slider_Image_01.jpg" class="d-block w-100 carousel-img" alt="..." >
+			<div class="carousel-caption d-none d-md-block carousel-text">
+				<h1><u>Компетенции в инновациях!</u></h1>
+				<p>Скорость технологических изменений нарастает стремительно, идёт резко вверх. Тот, кто использует 
+					эту технологическую волну, вырвется далеко вперёд. — В. В. Путин</p>
+				</div>
 		</div>
 		<div class="carousel-item">
-			<img src="material/images/Slider_Image_01.jpg" class="d-block w-100" alt="..." height="430px">
-			<div class="carousel-caption d-none d-md-block">
-			<h5>Third slide label</h5>
-			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-			</div>
+			<img src="material/images/Slider_Image_01.jpg" class="d-block w-100 carousel-img" alt="...">
+			<div class="carousel-caption d-none d-md-block carousel-text">
+				<h1><u>Компетенции в инновациях!</u></h1>
+				<p>Скорость технологических изменений нарастает стремительно, идёт резко вверх. Тот, кто использует 
+					эту технологическую волну, вырвется далеко вперёд. — В. В. Путин</p>
+				</div>
 		</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-slide="prev">
-		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		<span class="visually-hidden">Previous</span>
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
 		</a>
 		<a class="carousel-control-next" href="#carouselExampleDark" role="button" data-slide="next">
-		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		<span class="visually-hidden">Next</span>
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
 		</a>
 	</div>
 </div>
 
-<div class="gray"></div>
+<div class="about-us">
+
+</div>
+
+
 <script src="bootstrap5/bootstrap.js">
 
 </script>

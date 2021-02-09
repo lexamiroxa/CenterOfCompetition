@@ -1,6 +1,7 @@
 body {
     position: relative;
     margin:0 auto;
+    overflow-x: hidden;
 }
 
 header {
@@ -13,19 +14,28 @@ header {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14),
     0px 4px 5px rgba(0, 0, 0, 0.12),
     0px 1px 10px rgba(0, 0, 0, 0.2);
-}
-
-.header-information {
 
 }
 
 .header-logo {
     position: relative;
-    left: 20%;
+    left: 25%;
+    top: 40px;
+    display: table;
+}
+
+.display-table-cell {
+    display: table-cell;
+}
+
+.display-table-cell-logo{
+    position: relative;
+    top: 15px;
 }
 
 .borderright {
-    position: relative;
+    border: 2px solid #008733;
+
 }
 
 .header-text {
@@ -36,16 +46,15 @@ header {
     font-size: 22px;
     line-height: 30px;
     word-wrap: break-word;
+    max-width: 750px;
     /* or 136% */
 
     display: flex;
     align-items: center;
 
     /* Monochrome / Black */
-
+    margin-left: 10px;
     color: #000000;
-    height: auto;
-    word-break: break-all;
 }
 
 .header-line {
@@ -71,6 +80,8 @@ header {
     0px 1px 10px rgba(0, 0, 0, 0.2);
 
     margin:0 auto;
+    
+    float: center;
 }
 
 .hamburger-text {
@@ -126,16 +137,60 @@ li > a:hover:after, li > a:focus:after {
 
 .carousel-info {
     position: relative;
-    height: 430px;
+    max-height: 430px;
     top: 0px;
 }
-.carousel-item > img {
 
+.carousel-img {
+    width: auto;
+    max-height: 430px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.52) 22.32%, #000000 96.35%)
+     rgba(0, 0, 0, 0.52) 22.32%, #000000 96.35%), 
+     url(../material/images/Slider_Image_01.jpg);
 }
 
-.gray {
+.carousel-text {
+    color: #FFFFFF;
+    float: left;
+}
+
+.carousel-text > h1 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 46px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.carousel-text > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+
+
+    /* Monochrome / White */
+
+    color: #FFFFFF;
+
+    float: left;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+
+}
+
+.carousel-item > img {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.52) 22.32%, #000000 96.35%);
+}
+
+.about-us {
     background-color: #aeaeae;
     position: relative;
     width: 100%;
