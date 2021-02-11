@@ -1,11 +1,48 @@
 @media (max-width: 360px) {
+
     .header-text {
         max-width: 150px;
         font-size: 10px;
         line-height: 14px;
     }
+
     .header-logo {
         position: relative;
-        left: -5%;
+        left: 5%;
+    }
+
+    .carousel-text > h1 { 
+        font-size: 20px;
+    }
+
+    .carousel-text > p {
+        font-size: 11px;
+    }
+
+    .about-us-more {
+        position: relative;
+        right: 0%;
+        bottom: 30px;
+    }
+
+    .about-us-img {
+        height: 100px;
+        width: 99%;
+    }
+
+    .about-us-preview > h1 { 
+        font-size: 20px;
+    }
+
+    .about-us-more > p { 
+        font-size: 12px;
+    }
+
+    .about-us-text > p {
+        font-size: 12px;
+    }
+
+    .slider__content_title {
+        font-size: 5px;
     }
 }

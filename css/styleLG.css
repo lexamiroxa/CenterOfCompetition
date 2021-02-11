@@ -1,6 +1,12 @@
 @media (max-width: 1024px) {
+
     .header-logo {
         position: relative;
         left: 10%;
+    }
+
+    .about-us-img {
+        height: 200px;
+        width: auto;
     }
 }
