@@ -12,11 +12,12 @@
     }
 
     .carousel-text > h1 { 
-        font-size: 20px;
+        font-size: 10px;
+        border-bottom: 0px;
     }
 
     .carousel-text > p {
-        font-size: 11px;
+        font-size: 5px;
     }
 
     .about-us-more {
@@ -44,5 +45,9 @@
 
     .slider__content_title {
         font-size: 5px;
+    }
+
+    .partner-info > img {
+        width: auto;
     }
 }

@@ -17,4 +17,14 @@
     .slider__content_title > h2{
         font-size: 5px;
     }
+
+    .about-us, .courses, .ads, .news, .partner, .question {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .partner-info {
+        max-width: 267px;
+        max-height: 190px;
+    }
 }

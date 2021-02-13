@@ -134,6 +134,7 @@ li > a:after {
 li > a:hover:after, li > a:focus:after {
     width: 100%;
 }
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .carousel-info {
     position: relative;
@@ -195,14 +196,17 @@ li > a:hover:after, li > a:focus:after {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 0.52) 22.32%, #000000 96.35%);
 }
-
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .about-us {
     background-color: #ffffff;
     position: relative;
     width: 100%;
-    min-height: 624px;
+    min-height: auto;
 
-    padding: 3%;
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
 }
 
 .about-us-preview {
@@ -294,110 +298,95 @@ li > a:hover:after, li > a:focus:after {
 
     text-indent: 20px;
 }
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 
 .courses {
     background-color: #D4EDDA;;
     position: relative;
     width: 100%;
-    height: 500px;
-    padding: 3%;
+    height: auto;
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
 }
 
-.courses-preview {
-    display: table-cell;
-    padding-bottom: 6%;
-}
-
-.courses-preview > h1 {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 42px;
-    line-height: 55px;
-
-    /* Monochrome / Black */
-
-    color: #000000;
-
-    /* Inside Auto Layout */
-
-    flex: none;
-
-    float: left;
-    position: relative;
-    left: 10%;
-
-    border-bottom: 3px solid #008733;
-}
-
-.courses-more {
-    position: relative;
-    right: 10%;
-    bottom: 30px;
-}
-
-.courses-more > p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height */
-
-    text-align: right;
-    color: #008733;
-    float: right;
-    position: relative;
-    top: -20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .ads {
-    background-color: #4e1058;
+    background-color: #F4F4F4;
     position: relative;
     width: 100%;
     height: 500px;
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .news {
-    background-color: #1e90e2;
+    background-color: #FFFFFF;
     position: relative;
     width: 100%;
     height: 500px;
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
 }
 
 
 .partner {
-    background-color: #ff0000;
+    background-color: #EAEAEA;
     position: relative;
     width: 100%;
-    height: 500px;
+    height: auto;
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
 }
 
+.partner-info {
+    MIN-width: 310px;
+    height: 190px;
+    background-color: #aeaea2;
+    padding: 1%;
+    margin: 3%;
+}
 
 .question {
-    background-color: #000000;
+    background-color: #FFFFFF;
     position: relative;
     width: 100%;
     height: 500px;
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
 }
 
 
+footer {
+    min-height: 350px;
+    background: #155724;
+}
