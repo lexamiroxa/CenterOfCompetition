@@ -1,0 +1,239 @@
+
+
+.breadcrumb {
+    padding-right: 10%;
+    padding-left: 10%; 
+}
+
+.contact {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    max-height: 900px;
+}
+
+.contact > h1 {
+    font-size: 42px;
+    line-height: 55px;
+}
+
+.contact > iframe {
+    width: 1320px;
+}
+
+.contact_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    /* or 137% */
+
+
+    /* Monochrome / Black */
+
+    color: #000000;
+
+    float: left;
+
+    padding-bottom: 20px;
+
+    padding-left: 1%;
+}
+
+.contact_info {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contact_info > span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Monochrome / Black */
+
+    color: #000000;
+
+    display: table-cell;
+
+    padding-right: 10px;
+}
+
+
+
+.map {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map > iframe{
+    left:0;
+    top:0;
+    max-height: 900px;
+    width:100%;
+    position:absolute;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #155724;
+    min-height: 350px;
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+}
+
+.footer-main {
+    position: relative;
+    display: table-cell;
+}
+
+.footer-main-logo, .footer-main-text {
+    display: table-cell;
+}
+
+.footer-main-text-span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    /* or 136% */
+
+    display: flex;
+    align-items: center;
+
+    /* Monochrome / White */
+
+    color: #FFFFFF;
+
+    width: 300px;
+}
+
+.footer-info {
+    max-width: 870px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+
+    /* Monochrome / White */
+
+    color: #FFFFFF;
+
+
+    display: table-cell;
+
+    padding-top: 20px;
+}
+
+.footer-line {
+    border: 1px solid #008733;
+    transform: rotate(-180deg);
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 20px;
+}
+
+.footer-info-main {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+
+
+    /* Monochrome / White */
+
+    color: #FFFFFF;
+}
+
+.footer-info-text {
+    padding-top: 5px;
+}
+
+.footer-info-low-main {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+
+    /* Monochrome / White */
+
+    color: #FFFFFF;
+}
+
+.footer-info-contact {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer-info-contact-righrt {
+    float: right;
+}
+
+.developers-href {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+
+    /* Branded Colors / Chateau Green */
+
+    color: #46AD51;
+    
+
+}
+
+.footer-low-text-span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Monochrome / White */
+
+    color: #FFFFFF;
+
+    float: bottom;
+
+    padding-top: 30px;
+}

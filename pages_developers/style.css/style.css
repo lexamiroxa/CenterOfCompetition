@@ -1,0 +1,36 @@
+footer {
+    background-color: #155724;
+    min-height: 315px;
+}
+
+.footer-main {
+    position: relative;
+    left: 15%;
+    padding-top: 30px;
+}
+
+.footer-main-logo, .footer-main-text {
+    display: table-cell;
+}
+
+.footer-main-text-span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    /* or 136% */
+
+    display: flex;
+    align-items: center;
+
+    /* Monochrome / White */
+
+    color: #FFFFFF;
+
+    max-width: 300px;
+}
+
+.footer-info {
+    max-width: 870px;
+}

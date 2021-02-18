@@ -1,6 +1,6 @@
 body {
     position: relative;
-    margin:0 auto;
+    margin: 0 auto;
     overflow-x: hidden;
 }
 
@@ -197,6 +197,10 @@ li > a:hover:after, li > a:focus:after {
     rgba(0, 0, 0, 0.52) 22.32%, #000000 96.35%);
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.active_link {
+    border-bottom: 3px solid #008733;
+  }
+  
 .about-us {
     background-color: #ffffff;
     position: relative;
@@ -385,8 +389,153 @@ li > a:hover:after, li > a:focus:after {
     padding-bottom: 3%;
 }
 
-
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 footer {
+    background-color: #155724;
     min-height: 350px;
-    background: #155724;
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+}
+
+.footer-main {
+    position: relative;
+    display: table-cell;
+}
+
+.footer-main-logo, .footer-main-text {
+    display: table-cell;
+}
+
+.footer-main-text-span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    /* or 136% */
+
+    display: flex;
+    align-items: center;
+
+    /* Monochrome / White */
+
+    color: #FFFFFF;
+
+    width: 300px;
+}
+
+.footer-info {
+    max-width: 870px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+
+    /* Monochrome / White */
+
+    color: #FFFFFF;
+
+
+    display: table-cell;
+
+    padding-top: 20px;
+}
+
+.footer-line {
+    border: 1px solid #008733;
+    transform: rotate(-180deg);
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 20px;
+}
+
+.footer-info-main {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+
+
+    /* Monochrome / White */
+
+    color: #FFFFFF;
+}
+
+.footer-info-text {
+    padding-top: 5px;
+}
+
+.footer-info-low-main {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+
+    /* Monochrome / White */
+
+    color: #FFFFFF;
+}
+
+.footer-info-contact {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer-info-contact-righrt {
+    float: right;
+}
+
+.developers-href {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+
+    /* Branded Colors / Chateau Green */
+
+    color: #46AD51;
+    
+
+}
+
+.footer-low-text-span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Monochrome / White */
+
+    color: #FFFFFF;
+
+    float: bottom;
+
+    padding-top: 30px;
 }

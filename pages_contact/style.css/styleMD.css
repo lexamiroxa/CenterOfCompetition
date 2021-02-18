@@ -1,4 +1,9 @@
 @media (max-width: 768px) {
 
     
+
+    .footer-info {
+        float: right;
+    }
+    
 }
