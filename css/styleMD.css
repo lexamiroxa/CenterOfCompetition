@@ -15,4 +15,10 @@
         position: relative;
         top: -20px;
     }
+
+
+
+    .footer-info {
+        float: right;
+    }
 }

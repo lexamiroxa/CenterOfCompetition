@@ -1,4 +1,18 @@
 @media (max-width: 360px) {
 
-    
+    img {
+        width: 98px;
+        height: 98px;
+    }
+
+    .name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .role {
+        font-size: 12px;
+        line-height: 19px;
+    }
 }

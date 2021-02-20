@@ -50,4 +50,45 @@
     .partner-info > img {
         width: auto;
     }
+
+
+
+
+    footer {
+        padding-top: 1%;
+        padding-right: 1%;
+        padding-left: 1%;
+        padding-bottom: 1%;
+    }
+
+    .footer-info-main {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .footer-info-low-main {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .footer-info-contact {
+        font-size: 12px;
+        line-height: 16px;
+        float: left;
+        padding: 5px;
+    }
+
+    .developers-href {
+        float: left;
+    }
+
+    .footer-low-text-span {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .footer-main-text-span {
+        font-size: 16px;
+        line-height: 23px;
+    }
 }
