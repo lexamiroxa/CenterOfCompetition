@@ -606,7 +606,7 @@ progress {
 .container-xl,
 .container-xxl {
   --bs-gutter-x: 1.5rem;
-  width: 100%;
+  width: 90%;
   padding-right: calc(var(--bs-gutter-x) / 2);
   padding-left: calc(var(--bs-gutter-x) / 2);
   margin-right: auto;
@@ -3196,13 +3196,13 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-success {
-  color: #198754;
-  border-color: #198754;
+  color: #155724;
+  border-color: #155724;
 }
 
 .btn-outline-success:hover {
   color: #fff;
-  background-color: #198754;
+  background-color: #155724;
   border-color: #198754;
 }
 

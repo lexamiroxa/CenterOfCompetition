@@ -9,4 +9,17 @@
         position: relative;
         left: 3%;
     }
+
+    footer {
+        padding-top: 3%;
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-bottom: 3%;
+    }
+
+    .footer-main-text-span {
+        font-size: 16px;
+        line-height: 23px;
+        width: 90%;
+    }
 }

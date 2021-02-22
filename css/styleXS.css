@@ -1,8 +1,8 @@
 @media (max-width: 360px) {
 
     .header-text {
-        max-width: 150px;
-        font-size: 10px;
+        max-width: 80%;
+        font-size: 11px;
         line-height: 14px;
     }
 
@@ -57,7 +57,7 @@
     footer {
         padding-top: 1%;
         padding-right: 1%;
-        padding-left: 1%;
+        padding-left: 0%;
         padding-bottom: 1%;
     }
 
@@ -90,5 +90,6 @@
     .footer-main-text-span {
         font-size: 16px;
         line-height: 23px;
+        width: 90%;
     }
 }

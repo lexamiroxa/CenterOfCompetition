@@ -1,5 +1,11 @@
 @media (max-width: 360px) {
 
+    .developers {
+        padding-right: 1%;
+        padding-left: 1%;
+        padding-bottom: 3%;
+    }
+
     img {
         width: 98px;
         height: 98px;

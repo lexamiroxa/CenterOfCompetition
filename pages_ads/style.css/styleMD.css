@@ -1,4 +1,39 @@
 @media (max-width: 768px) {
 
-    
+    .ads-content-img-text > a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height, or 129% */
+
+        display: flex;
+        align-items: center;
+
+        /* Monochrome / Black */
+
+        color: #000000;
+    }
+
+    .ads-content-img > img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .img-text-date {
+        left: 17px;
+        top: 20px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        /* identical to box height, or 114% */
+
+        text-align: center;
+
+        /* Branded Colors / Fun Green */
+
+        color: #008733;
+    }
 }
