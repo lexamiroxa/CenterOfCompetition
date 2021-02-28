@@ -1,0 +1,141 @@
+
+.contact {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    max-height: 900px;
+}
+
+.contact > h1 {
+    font-size: 42px;
+    line-height: 55px;
+}
+
+.contact > iframe {
+    width: 1320px;
+}
+
+.contact_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    /* or 137% */
+
+
+    /* Monochrome / Black */
+
+    color: #000000;
+
+    float: left;
+
+    padding-bottom: 20px;
+
+    padding-left: 1%;
+}
+
+.contact_info {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contact_info > span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Monochrome / Black */
+
+    color: #000000;
+
+    display: table-cell;
+
+    padding-right: 10px;
+}
+
+
+
+.map {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map > iframe{
+    left:0;
+    top:0;
+    max-height: 900px;
+    width:100%;
+    position:absolute;
+}
+
+@media (max-width: 768px) {
+
+    .footer-info {
+        float: right;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    
+
+    .contact_text {
+        font-size: 42px;
+        line-height: 55px;
+    }
+
+
+    .contact_info > span {
+
+        display: block;
+    }
+}
+
+@media (max-width: 1280px) {
+    
+    .contact_info > span {
+
+        display: block;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .contact {
+        padding-top: 1%;
+        padding-right: 1%;
+        padding-left: 1%;
+        padding-bottom: 1%;
+        height: auto;
+    }
+
+    .contact > h1 {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .contact_text {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .contact > iframe {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contact_info > span {
+        font-size: 16px;
+        line-height: 19px;
+
+        display: block;
+    }
+
+}

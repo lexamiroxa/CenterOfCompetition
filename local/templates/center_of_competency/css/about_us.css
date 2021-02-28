@@ -1,0 +1,194 @@
+.about-us-page {
+    padding-top: 0%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+}
+
+.line {
+    max-width: 23px;
+    max-height: 3px;
+    background-color: #000;
+    display: table-cell;
+}
+
+.line-name {
+    display: table-cell;
+    margin-left: 10px;
+}
+
+.line-name:before {
+    content: "—";
+    font-size: 1.2em;
+    color: #000000;
+}
+
+
+.name {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 29px;
+    line-height: 38px;
+
+    /* Monochrome / Black */
+
+    color: #000000;
+
+    text-decoration: none;
+}
+
+
+.card-body {
+    display: table-cell;
+}
+
+.card-body > img {
+    border-radius: 150px;
+    margin-right: 20px;    
+}
+
+.leader-name {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 46px;
+    text-align: center;
+    
+    /* Monochrome / Black */
+    
+    color: #000000;
+    
+    display: table-cell;
+
+    text-align: center;
+}
+
+.leader-role {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    text-align: center;
+    
+    /* Monochrome / Black */
+    
+    color: #000000;
+    display: table-cell;
+}
+
+.poloz-about-center-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    /* Monochrome / Black */
+
+    color: #000000;
+}
+
+
+.task-center, .function-center {
+    display: block;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    /* Monochrome / Black */
+    
+    color: #000000;
+
+}
+
+
+
+
+@media (max-width: 360px) {
+
+    .about-us-page {
+        padding-top: 0%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 3%;
+    }
+
+    .about-us-img {
+        width: 100%;
+    }
+
+    .leader-img {
+        width: 164px;
+        height: 164px;
+    }
+
+
+    .leader-name {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    /* Monochrome / Black */
+
+    color: #000000;
+    }
+
+    .leader-role {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        /* or 114% */
+        
+        text-align: center;
+        
+        /* Monochrome / Black */
+        
+        color: #000000;
+    }
+
+    .task-center {
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    /* or 158% */
+
+
+    /* Monochrome / Black */
+
+    color: #000000;
+    }
+
+    .function-center {
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    /* or 158% */
+
+
+    /* Monochrome / Black */
+
+    color: #000000;
+    }
+}

@@ -1,0 +1,90 @@
+.developers {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+}
+
+.card-developer {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.card-developer-img, .card-developer-name, .card-developer-role {
+    display: table-cell;
+}
+
+img {
+    border-radius: 100px;
+    margin-right: 20px;    
+}
+
+.name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height, or 121% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Monochrome / Black */
+    
+    color: #000000;
+}
+
+.role {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    
+    /* Monochrome / Black */
+    
+    color: #000000;
+}
+
+
+@media (max-width: 1280px) {
+    
+    
+}
+
+@media (max-width: 1024px) {
+
+    
+}
+
+@media (max-width: 768px) {
+
+    
+}
+
+@media (max-width: 360px) {
+
+    .developers {
+        padding-right: 1%;
+        padding-left: 1%;
+        padding-bottom: 3%;
+    }
+
+    img {
+        width: 98px;
+        height: 98px;
+    }
+
+    .name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .role {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
