@@ -578,6 +578,16 @@ footer {
 }
 
 
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1280px) {
     
     .header-logo {
@@ -678,6 +688,10 @@ footer {
 
 
 @media (max-width: 360px) {
+
+    .navbar {
+        width: 100%;
+    }
 
     .header-text {
         max-width: 80%;

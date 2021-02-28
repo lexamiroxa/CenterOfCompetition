@@ -122,8 +122,8 @@
     }
 
     .contact_text {
-        font-size: 24px;
-        line-height: 33px;
+        font-size: 16px;
+        line-height: 20px;      
     }
 
     .contact > iframe {
