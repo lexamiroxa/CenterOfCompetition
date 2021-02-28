@@ -1,0 +1,68 @@
+.partner-content {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+}
+
+.partner-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height, or 136% */
+
+    display: flex;
+    align-items: center;
+
+    /* Monochrome / Black */
+
+    color: #000000;
+}
+
+figure {
+    width: 200px;
+}
+
+.partner-block {
+    display: table;
+}
+
+.partner-block > img, .partner-block > span {
+    display: table-cell;
+}
+
+.partner-button > button {
+    position: relative;
+    left: 35%;
+
+    width: 300px;
+}
+
+
+@media (max-width: 360px) {
+
+    .partner-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height, or 129% */
+        
+        
+        /* Monochrome / Black */
+        
+        color: #000000;
+
+        float: center;
+    }
+
+    .partner-button > button {
+        position: relative;
+        left: 20%;
+    
+        width: 200px;
+    }
+
+}
