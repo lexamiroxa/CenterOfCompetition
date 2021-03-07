@@ -682,6 +682,20 @@ footer {
         line-height: 23px;
         width: 90%;
     }
+    
+    .about-us-preview > h1 {
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 26px;
+        display: flex;
+        align-items: flex-end;
+
+        /* Monochrome / Black */
+
+        color: #000000;
+    }
 }
 
 
