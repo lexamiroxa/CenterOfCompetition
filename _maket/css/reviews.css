@@ -1,25 +1,212 @@
+body, .breadcrumb{
+    background: #F4F4F4;
+}
+
+.page-reviews {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    max-height: auto;
+}
+
+.card-reviews {
+    display: block;
+    margin-bottom: 5px;
+    padding: 20px;
+
+    background: #FFFFFF;
+    /* 2dp — Elevation */
+
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+}
+
+.card-reviews-img, .card-reviews-name, .card-reviews-mail {
+    display: table-cell;
+}
+
+.card-reviews-img > img {
+    border-radius: 50px;
+    margin-right: 20px;
+    width: 88px;
+    height: 88px;
+}
+
+.card-reviews-name-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height, or 121% */
+
+
+    /* Monochrome / Black */
+
+    color: #000000;
+}
+
+.card-reviews-mail {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    /* Branded Colors / Fun Green */
+
+    color: #008733;
+    border-bottom: 1px solid #008733;
+}
+
+.teviews-text-people-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    /* or 158% */
+    
+    
+    /* Monochrome / Scorpion */
+    
+    color: #5C5C5C;
+}
+
+.teviews-text-people-role {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 19px;
+    /* identical to box height, or 158% */
+    
+    
+    /* Universal / Lochmara */
+    
+    color: #0089D6;
+}
+
+.thank-you-note {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    max-height: auto;
+
+    background: #D4EDDA;
+}
+
+.thank-you-note {
+    padding-top: 30px;
+    min-height: 300px;
+}
+
+
+.leave-reviews {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    max-height: auto;
+    background: #FFFFFF;
+
+    padding-top: 30px;
+    min-height: 300px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1280px) {
+
+    .page-reviews, .thank-you-note, .leave-reviews {
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 3%;
+        max-height: auto;
+    }
+}    
+    
+    
 @media (max-width: 1024px) {
 
+    .page-reviews, .thank-you-note, .leave-reviews {
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-bottom: 3%;
+        max-height: auto;
+    }
     
 }
 
 @media (max-width: 768px) {
-
+    .page-reviews, .thank-you-note, .leave-reviews {
+        padding-right: 1%;
+        padding-left: 1%;
+        padding-bottom: 3%;
+        max-height: auto;
+    }
+    
     
 }
 
 @media (max-width: 576px) {
+
+    .card-reviews {
+        padding: 10px;
     
+    }
+
+    .card-reviews-img > img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .card-reviews-name-text {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    .card-reviews-mail-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .teviews-text-people-text {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    .teviews-text-people-role {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
     
 }
 
-
-@media (max-width: 1280px) {
-    
-    
-}
 
 @media (max-width: 360px) {
 
+    .card-reviews-name-text {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    .card-reviews-mail-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .teviews-text-people-text {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    .teviews-text-people-role {
+        font-size: 14px;
+        line-height: 16px;
+    }
     
 }
