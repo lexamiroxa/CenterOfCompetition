@@ -3200,6 +3200,12 @@ fieldset:disabled .btn {
   border-color: #155724;
 }
 
+.btn-lonk-outline-success {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+
 .btn-outline-success:hover {
   color: #fff;
   background-color: #155724;
