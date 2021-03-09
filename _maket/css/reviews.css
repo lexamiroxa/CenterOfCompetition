@@ -99,9 +99,13 @@ body, .breadcrumb{
 
 .thank-you-note {
     padding-top: 30px;
-    min-height: 300px;
 }
 
+.thank-you-note > iframe {
+    margin: 20px;
+    width: 90%;
+    height: 500px;
+}
 
 .leave-reviews {
     padding-right: 10%;
@@ -116,6 +120,83 @@ body, .breadcrumb{
 
 .form-control {
     margin-bottom: 20px;
+}
+
+.email {
+    height: 150px;
+}
+
+.reviews-button {
+    width: 300px;
+    height: 60px;
+    background: #ACC8A6;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+form > img {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.foto-radius {
+
+    border: 3px solid #008733;
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin: 0px 24px;
+}
+
+.reviews-photo-text {
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+
+    /* Monochrome / Black */
+
+    color: #000000;
+}
+
+form {
+    width: 90%;
+}
+
+.reviews-photo-text-no {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    display: flex;
+    align-items: flex-end;
+
+    /* Monochrome / Dusty Gray */
+
+    color: #949494;
+}
+
+.form-choose {
+    width: 146px;
+    height: 32px;
+    left: 0px;
+    top: 60px;
+
+    /* Branded Colors / Parsley */
+
+    border: 2px solid #155724;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.leave-form-foto {
+    display: table;
+}
+
+.display-flex {
+    display: table;
 }
 
 @media (max-width: 1280px) {
@@ -207,6 +288,14 @@ body, .breadcrumb{
     .teviews-text-people-role {
         font-size: 14px;
         line-height: 16px;
+    }
+
+    .reviews-button {
+        width: 90%;
+        height: 60px;
+        background: #ACC8A6;
+        border-radius: 10px;
+        margin-top: 20px;
     }
     
 }

@@ -179,6 +179,8 @@
 			<h1>Благодарственные письма</h1> 	<!-- text preview page -->
 			<div class="about-us-underline"></div>
 		</div>
+
+		<iframe src="../material/docs/Polozheniye_Tsentr_Kompetentsiy.pdf"></iframe>
 	</div>
 
 	<div class="leave-reviews">
@@ -188,13 +190,31 @@
 		</div>
 
 		<form>
+			<div class="leave-form-foto">
+				<div>
+					<img src="../material/icon/svg-NoAvatar.svg" alt="" class="foto-radius" width="64px" height="64px">
+				</div>
+				<span class="reviews-photo-text display-flex">
+					Ваша фотография <p class="reviews-photo-text-no display-flex">Не обязательно</p>
+					<p><input type="file" name="f" class="form-choose display-flex"> </p>
+				</span>
+			</div>
+
 			<div class="form-group">
-			  <input type="email" class="form-control enter-fio" aria-describedby="emailHelp" placeholder="Ваше ФИО">
+			  <input type="email" class="form-control enter-fio" aria-describedby="emailHelp" placeholder="Ваше ФИО" width="300px">
 			  <input type="email" class="form-control enter-email" aria-describedby="emailHelp" placeholder="Ваш email">
 			  <input type="email" class="form-control enter-role" aria-describedby="emailHelp" placeholder="Кем вы являетесь?">
 			  <input type="email" class="form-control enter-reviews" aria-describedby="emailHelp" placeholder="Ваш отзыв">
 			</div>
-		  </form>
+
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+				<label class="form-check-label" for="flexCheckDefault">
+					Я даю согласие на обработку моих персональных данных
+				</label>
+			</div>
+			<button type="button" class="btn btn-success reviews-button">Отправить</button>
+		</form>
 	</div>
 
 
