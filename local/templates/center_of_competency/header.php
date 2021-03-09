@@ -10,7 +10,6 @@ use Bitrix\Main\Page\Asset;
 
     <?php 
         Asset::getInstance()->addCss( SITE_TEMPLATE_PATH . '/css/main.css');
-        Asset::getInstance()->addCss( SITE_TEMPLATE_PATH . '/css/slider-courses.css');
         Asset::getInstance()->addCss( SITE_TEMPLATE_PATH . '/bootstrap5/bootstrap.css');
         Asset::getInstance()->addJs( SITE_TEMPLATE_PATH . '/bootstrap5/bootstrap.js');
         Asset::getInstance()->addJs( SITE_TEMPLATE_PATH . '/js/main.js');
@@ -42,6 +41,23 @@ use Bitrix\Main\Page\Asset;
 	</div>
 </header>
 <div class="header-line"></div>
+<?$APPLICATION->IncludeComponent("bitrix:menu", "kubsau_cofc_main_menu", Array(
+	"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+		"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
+		"DELAY" => "N",	// Откладывать выполнение шаблона меню
+		"MAX_LEVEL" => "1",	// Уровень вложенности меню
+		"MENU_CACHE_GET_VARS" => array(	// Значимые переменные запроса
+			0 => "",
+		),
+		"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
+		"MENU_CACHE_TYPE" => "N",	// Тип кеширования
+		"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
+		"ROOT_MENU_TYPE" => "top_main",	// Тип меню для первого уровня
+		"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+	),
+	false
+);?>
+<!--
 <div class="hamburger-menu">
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container-fluid hamburger-text">
@@ -82,3 +98,4 @@ use Bitrix\Main\Page\Asset;
 		</div>
   	</nav>
 </div>
+-->

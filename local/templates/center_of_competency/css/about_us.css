@@ -41,11 +41,18 @@
 
 .card-body {
     display: table-cell;
+    position: relative;
+    left: 30%;
 }
 
 .card-body > img {
     border-radius: 150px;
     margin-right: 20px;    
+}
+
+.leader-img {
+    position: relative;
+    left: 20%;
 }
 
 .leader-name {
@@ -63,6 +70,9 @@
     display: table-cell;
 
     text-align: center;
+
+    position: relative;
+    left: 20%;
 }
 
 .leader-role {
@@ -74,6 +84,7 @@
     /* identical to box height, or 133% */
     
     text-align: center;
+    position: relative;
     
     /* Monochrome / Black */
     
@@ -114,8 +125,28 @@
 
 }
 
+@media (max-width: 1280px) {
+    .about-us-img > img {
+        width: 100%;
+    }
 
+    .card-body {left: 20%;}
+    /* .leader-img {left: 0%;}
+    .leader-name {left: 0%;}
+    .leader-role {left: 0%;} */
+}
 
+@media (max-width: 1024px) {
+    .about-us-img > img {
+        margin-top: 40px;
+    }
+    .card-body {left: 7%;}
+}
+
+@media (max-width: 768px) {
+    .card-body {left: 0%;}
+    
+}
 
 @media (max-width: 360px) {
 
@@ -126,7 +157,7 @@
         padding-bottom: 3%;
     }
 
-    .about-us-img {
+    .about-us-img > img {
         width: 100%;
     }
 

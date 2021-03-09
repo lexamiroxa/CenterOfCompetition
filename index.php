@@ -1,5 +1,9 @@
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
-
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Центр компетенций Кубанского ГАУ");?>
+<?php
+$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/slider-courses.js');
+$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . '/css/slider-courses.css');
+?>
 <div class="carousel-info">
 	<div id="carouselExampleDark" class="carousel carousel-dark slide" data-ride="carousel">
 		<div class="carousel-inner">
