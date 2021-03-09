@@ -1,0 +1,67 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"ГЛАВНАЯ", 
+		"/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О ЦЕНТРЕ", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"КУРСЫ", 
+		"/courses/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ОТЗЫВЫ", 
+		"/reviews/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"НОВОСТИ", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ОБЪЯВЛЕНИЯ", 
+		"/ads/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ПАРТНЕРЫ", 
+		"/partner/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"КЛИЕНТЫ", 
+		"/client/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"КОНТАКТЫ", 
+		"/contact/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
