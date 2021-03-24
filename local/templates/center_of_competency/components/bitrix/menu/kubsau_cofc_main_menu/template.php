@@ -18,7 +18,7 @@
 						<?if($arItem["SELECTED"]):?>
 							<li class="nav-item"><a class="nav-link active" aria-current="page" href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a></li>
 						<?else:?>
-							<li class="nav-item"><a class="nav-link" aria-current="page" href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a></li>
+							<li class="nav-item"><a class="nav-link active" aria-current="page" href="<?=$arItem["LINK"]?>"><?=$arItem["TEXT"]?></a></li>
 						<?endif?>
 						
 					<?endforeach?>
