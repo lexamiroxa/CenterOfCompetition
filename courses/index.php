@@ -71,13 +71,13 @@ $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . '/css/courses.css');
 				</span>
 				<div class="courses-price">
 					<div class="courses-price-money">
-						<img src="<?=SITE_TEMPLATE_PATH?>/material/icon/svg-PriceTag.svg" alt="" width="32px" height="32px">
+						<img src="<?=SITE_TEMPLATE_PATH?>/material/icon/svg-PriceTag.svg" style="fill:#123456" alt="" width="32px" height="32px">
 						<span class="courses-price-text">
 							1000000 	&#8381;
 						</span>
 					</div>
 					<div class="courses-price-time">
-						<img src="<?=SITE_TEMPLATE_PATH?>/material/icon/svg-Clock.svg" alt="" width="32px" height="32px">
+						<img src="<?=SITE_TEMPLATE_PATH?>/material/icon/svg-Clock.svg" style="fill:#123456" alt="" width="32px" height="32px">
 						<span class="courses-price-text">
 							100 часов
 						</span>
