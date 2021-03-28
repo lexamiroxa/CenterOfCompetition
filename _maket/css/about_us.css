@@ -150,12 +150,29 @@
 
 }
 
+.name-of-block {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 29px;
+    line-height: 38px;
+
+    /* Monochrome / Black */
+
+    color: #000000;
+}
+
+
 @media (max-width: 1280px) {
 
-    .card-body {left: 20%;}
-    /* .leader-img {left: 0%;}
-    .leader-name {left: 0%;}
-    .leader-role {left: 0%;} */
+    .card-body {
+        left: 20%;
+    }
+
+    .about-us-page {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -168,8 +185,14 @@
 }
 
 @media (max-width: 768px) {
-    .card-body {left: 0%;}
+    .card-body {
+        left: 0%;
+    }
 
+    .about-us-page {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -205,6 +228,11 @@
         line-height: 19px;
     }
 
+    .name-of-block {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
 
 }
 
@@ -234,30 +262,12 @@
     }
 
     .task-center {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
         font-size: 12px;
         line-height: 19px;
-        /* or 158% */
-
-
-        /* Monochrome / Black */
-
-        color: #000000;
     }
 
     .function-center {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
         font-size: 12px;
         line-height: 19px;
-        /* or 158% */
-
-
-        /* Monochrome / Black */
-
-        color: #000000;
     }
 }

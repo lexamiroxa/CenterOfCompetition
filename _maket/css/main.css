@@ -334,13 +334,15 @@ li > a:hover:after, li > a:focus:after {
     padding-bottom: 3%;
 }
 
+.courses-slider {
+    min-height: 300px;
+}
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .ads {
     background-color: #F4F4F4;
     position: relative;
     width: 100%;
-    height: 500px;
     padding-top: 3%;
     padding-right: 10%;
     padding-left: 10%;
@@ -348,19 +350,117 @@ li > a:hover:after, li > a:focus:after {
 }
 
 
+.ads-info {
+    display: inline-block;
+}
+
+
+.ads-info-block {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2),0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+    
+    padding: 10px;
+}
+
+.ads-info-leftarrow, .ads-info-rightarrow {
+    width: 70px;
+}
+
+.ads-info-leftarrow-img, .ads-info-rightarrow-img {
+    top: 50%;
+    max-width: 64px;
+    max-height: 64px;
+
+    display: inline-block;
+}
+
+.ads-info-leftarrow-img > img, .ads-info-rightarrow-img > img {
+    position: absolute;
+    top: 50%;
+}
+
+.ads-info-leftarrow, .ads-info-rightarrow, .ads-info-block {
+    display: table-cell;
+    margin: 10px;
+}
 
 
 
+.ads-info-block-person-img, .ads-info-block-person-name {
+    display: table-cell;
+}
+
+.ads-info-block-person-img > img {
+    width: 85px;
+    height: 85px;
+    border-radius: 100px;
+
+    position: relative;
+    top: 20px;
+
+    margin-right: 20px;
+}
+
+.ads-info-block-person-name-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* or 121% */
+    
+    
+    /* Monochrome / Black */
+    
+    color: #000000;
+}
+
+.ads-info-block-person-name-mail {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    
+    
+    /* Branded Colors / Fun Green */
+    
+    color: #2E7F3C;
+}
+
+.ads-info-block-description-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    /* or 158% */
+
+
+    /* Monochrome / Scorpion */
+
+    color: #5C5C5C;
+}
+
+.ads-info-block-description-status {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 19px;
+    /* or 158% */
+    
+    
+    /* Universal / Lochmara */
+    
+    color: #0089D6;
+    
+}
 
 
 
-
-
-
-
-
-
-
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 
 
@@ -369,12 +469,80 @@ li > a:hover:after, li > a:focus:after {
     background-color: #FFFFFF;
     position: relative;
     width: 100%;
-    height: 500px;
     padding-top: 3%;
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 3%;
 }
+
+.news-block-information {
+    display: inline-block;
+}
+
+.news-block-information-first, .news-block-information-second ,
+.news-block-information-third {
+    display: inline-block;
+
+    width: 30%;
+
+    background: #FFFFFF;
+    
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2),
+     0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+}
+
+.news-block-information-first > img,.news-block-information-second > img,
+.news-block-information-third > img  {
+    width: 100%;
+    height: 230px;
+}
+
+.news-block-information-text  {
+    padding: 3%;
+}
+
+.news-block-information-text-tittle {
+    display: block;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.news-block-information-text-date {
+    display: block;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #155724;
+}
+
+.news-block-information-text-text {
+    display: block;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    /* Monochrome / Scorpion */
+    
+    color: #5C5C5C;
+    
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 
 .partner {
@@ -388,45 +556,77 @@ li > a:hover:after, li > a:focus:after {
     padding-bottom: 3%;
 }
 
-.partner-info {
-    MIN-width: 310px;
-    height: 190px;
-    background: #FFFFFF;
-    /* 2dp — Elevation */
-    
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
-    padding: 1%;
-    margin: 3%;
+.partner-block-item {
+    width: 100%;
+    padding-left: 0%;
 }
 
-figure {
-    max-width: 400px;
-    align-items: center;
+.partner-block-icon {
+    display: inline-block;
+    width: 22%;
+    height: 200px;
+
+    padding: 30px;
 }
 
-.partner-block {
-    display: table-row;
+.partner-block-icon > img {
+    width: 100%;
+    height: 100%;
 }
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 
 .question {
     background-color: #FFFFFF;
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 100%;
     padding-top: 3%;
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 3%;
 }
 
+.leave-reviews {
+    padding-top: 30px;
+    min-height: 300px;
+}
 
-table > img {
-    width: 280px;
-    height: 150px;
+.form-control {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-check-label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+
+    /* Monochrome / Black */
+
+    color: #000000;
+}
+ 
+.enter-fio, .enter-email {
+    width: 45%;
+    display: inline-block;
+}
+
+.enter-reviews {
+    display: inline-block;
+    width: 100%;
 }
 
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 footer {
     background-color: #155724;
     min-height: 350px;
@@ -603,11 +803,6 @@ footer {
         height: 400px;
         width: auto;
     }
-
-    .slider__content_title > h2{
-        font-size: 5px;
-    }
-
     .about-us, .courses, .ads, .news, .partner, .question {
         padding-left: 3%;
         padding-right: 3%;
@@ -617,6 +812,13 @@ footer {
         max-width: 267px;
         max-height: 190px;
     }
+
+    .partner-block-icon {
+        width: 25%;
+    
+        padding: 15px;
+    }
+    
 }
 
 @media (max-width: 1024px) {
@@ -629,6 +831,14 @@ footer {
     .about-us-img {
         height: 200px;
         width: auto;
+    }
+
+    .news-block-information-first, .news-block-information-second {
+        width: 45%;
+    }
+
+    .news-block-information-third {
+        display: none;
     }
 }
 
@@ -650,10 +860,35 @@ footer {
         top: -20px;
     }
 
-
+    .enter-fio, .enter-email {
+        width: 100%;
+        display: block;
+    }
 
     .footer-info {
         float: right;
+    }
+
+    .partner-block-icon {
+        width: 35%;
+    
+        padding: 5px;
+    }
+
+    .news-block-information-first, .news-block-information-second {
+        margin: 10px;
+        width: 100%;
+    }
+
+    .ads-info-block-hide, .ads-info-leftarrow, .ads-info-rightarrow {
+        display: none;
+    }
+    .ads-info-block {
+        left: 20%;
+    }
+
+    .ads-info-block-description {
+        margin-top: 30px;
     }
 }
 
@@ -684,17 +919,67 @@ footer {
     }
     
     .about-us-preview > h1 {
-        font-family: Roboto Slab;
-        font-style: normal;
         font-weight: 300;
         font-size: 20px;
         line-height: 26px;
-        display: flex;
-        align-items: flex-end;
+    }
 
-        /* Monochrome / Black */
+    .form-check-label {
+        font-size: 12px;
+        line-height: 19px;
+    }
 
-        color: #000000;
+    .partner-block-item {
+        padding-left: 10%;
+    }
+    
+    .partner-block-icon {
+        width: 100px;
+        height: 110px;
+    
+        padding: 0px;
+    }
+
+    .ads-info-block-person-img > img {
+    
+        margin-right: 5px;
+    }
+
+    .news-block-information-text-tittle {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .news-block-information-text-date {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    
+    .news-block-information-text-text {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .ads-info-block-person-name-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .ads-info-block-person-name-mail {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .ads-info-block-description-text {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    
+    .ads-info-block-description-status {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 19px;
     }
 }
 
@@ -749,21 +1034,6 @@ footer {
     .about-us-text > p {
         font-size: 12px;
     }
-
-    .slider__content_title {
-        font-size: 5px;
-    }
-
-    .partner-info > img {
-        width: auto;
-    }
-
-    .display-table-cell {
-        max-width: 250px;
-    }
-
-
-
     footer {
         padding-top: 1%;
         padding-right: 1%;
